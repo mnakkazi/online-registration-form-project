@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
     font-family: 'Tinos', serif;
-    background: rgb(255, 252, 253);
     color: #777;
+}
+body {
+    background: rgb(255, 250, 252);
 }
 body, h1, h3, fieldset, hr, p {
     margin: 0;
@@ -78,6 +80,12 @@ footer p {
     display: flex;
     flex-direction: column;
 }
+.newsletter {
+    background-color: rgba(249, 225, 229, .4);
+}
+.last_p {
+    margin-top: 1.2rem;
+}
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     padding: 1.2rem 1.2rem 1.2rem .5rem;
     width: 100%;
@@ -86,7 +94,8 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     font-size: 1.1em;
 }
 input:focus, select:focus, textarea:focus {
-    outline: 2px solid rgb(9, 5, 39);  
+    outline: 2px solid rgb(132, 13, 78);  
+    transition: all 2s ease-in;
 }
 input[type="checkbox"], input[type="radio"] {
     margin: .8rem;
@@ -118,5 +127,6 @@ input[name="user_zipcode"] {
     }
     input[name="user_zipcode"] {
         width: 25%;
+        margin-right: 45%;
     }
 }

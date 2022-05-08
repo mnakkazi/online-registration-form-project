@@ -50,7 +50,7 @@
             <div class="labels">
                 <label for="state" class="margin">State</label>
                 <select name="user_state" id="state" required>
-                    <option value="choose_state" disabled selected>Choose State</option>
+                    <option value="" disabled selected>Choose State</option>
                     <option value="al">AL</option>
                     <option value="ak">AK</option>
                     <option value="az">AZ</option>
@@ -115,25 +115,27 @@
         </fieldset>
         <hr>
 
-        <fieldset>
-            <legend class="font">Newsletter</legend>
+        <div class="newsletter">
+            <fieldset>
+                <legend class="font">Newsletter</legend>
 
-            <p>Select the newsletters you would like to receive</p>
+                <p>Select the newsletters you would like to receive</p>
 
-            <input type="checkbox" id="htmlnews" value="html_news" name="html_news"><label for="htmlnews">HTML News</label><br>
+                <input type="checkbox" id="htmlnews" value="html_news" name="html_news"><label for="htmlnews">HTML News</label><br>
 
-            <input type="checkbox" id="cssnews" value="css_news" name="css_news"><label for="cssnews">CSS News</label><br>
+                <input type="checkbox" id="cssnews" value="css_news" name="css_news"><label for="cssnews">CSS News</label><br>
 
-            <input type="checkbox" id="javanews" value="java_news" name="java_news"><label for="javanews">Javascript News</label><br>
+                <input type="checkbox" id="javanews" value="java_news" name="java_news"><label for="javanews">Javascript News</label><br>
 
-            <h3>Newsletter Format</h3>
+                <h3>Newsletter Format</h3>
 
-            <input type="radio" id="html" value="html" name="format"><label for="html">HTML</label><br>
+                <input type="radio" id="html" value="html" name="format"><label for="html">HTML</label><br>
 
-            <input type="radio" id="plaintext" value="plaintext" name="format"><label for="plaintext">Plain Text</label>
-        </fieldset>
+                <input type="radio" id="plaintext" value="plaintext" name="format"><label for="plaintext">Plain Text</label>
+            </fieldset>
+        </div>
 
-        <p>Other topics you'd like to hear about</p>
+        <p class="last_p">Other topics you'd like to hear about</p>
         <textarea id="topics" name="topics" placeholder="Optional" class="padding"></textarea>
 
         <button type="submit" class="white center font margin">Sign Up</button>
