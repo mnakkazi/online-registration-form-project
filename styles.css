@@ -1,3 +1,98 @@
 * {
-    font-family: 'Slabo 27px', serif;
+    box-sizing: border-box;
+    font-family: 'Tinos', serif;
+    background: rgb(255, 252, 253);
+    color: #777;
 }
+body, h1, fieldset, hr {
+    margin: 0;
+}
+h2, legend {
+    color: black;
+}
+header p, form {
+    margin: 0 1.3rem 1rem;
+}
+fieldset, input, button, select, textarea {
+    border: none;
+}
+footer p, ::placeholder {
+    font-style: italic;
+}
+hr {
+    border: 1px inset black;
+}
+h1 {
+    background-color: rgb(2, 2, 44);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 1.5rem;
+}
+h2 {
+    margin: 1rem 1rem 0;
+}
+header p {
+    font-size: 1.1em;
+    padding: .5rem .5rem 1rem;
+    border-bottom: 3.5px solid black;
+    margin-bottom: .6%;
+}
+label {
+    font-size: 1.2em;
+}
+legend {
+    font-weight:bolder;
+    font-size: 1.3em;
+    padding: 1rem 0;
+}
+fieldset {
+    padding: 0;
+}
+textarea {
+    padding: 2.5rem;
+}
+button {
+    background-color: rgb(49, 187, 176);
+    padding: .8rem 8rem;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin: 1rem 0;
+}
+footer p {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: .9em;
+    color: rgb(170, 167, 167);
+}
+.center {
+    text-align: center;
+}
+.white {
+    color: white;
+}
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    display: block;
+    margin: .6rem .6rem .6rem 0;
+    padding: 1.2rem 1.2rem 1.2rem .5rem;
+    width: 90vw;
+    border-radius: 5px;
+    background-color: rgba(230, 235, 240, 0.7);
+    font-size: 1em;
+}
+input[type="checkbox"], input[type="radio"] {
+    margin: .8rem;
+}
+input[name="java_news"], input[name="plaintext"] {
+    margin-bottom: 2rem;
+}
+input[name="user_zipcode"] {
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+::placeholder {
+    text-align: right;
+}
+@media screen and (min-width: 768px) {}
