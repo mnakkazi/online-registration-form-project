@@ -43,9 +43,12 @@ p {
 fieldset {
     padding: 0;
 }
+textarea {
+    margin-top: 1rem;
+}
 button {
     background-color: rgb(49, 187, 176);
-    padding: .8rem 8rem;
+    padding: 1rem;
     font-weight: 700;
     border-radius: 3px;
     cursor: pointer;
@@ -83,9 +86,6 @@ footer p {
 .newsletter {
     background-color: rgba(249, 225, 229, .4);
 }
-.last_p {
-    margin-top: 1.2rem;
-}
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     padding: 1.2rem 1.2rem 1.2rem .5rem;
     width: 100%;
@@ -100,7 +100,7 @@ input:focus, select:focus, textarea:focus {
 input[type="checkbox"], input[type="radio"] {
     margin: .8rem;
 }
-input[name="java_news"], input[name="plaintext"], input[name="user_zipcode"] {
+input[name="java_news"], input[name="user_zipcode"] {
     margin-bottom: 1.5rem;
 }
 input[name="user_zipcode"] {
@@ -117,7 +117,7 @@ input[name="user_zipcode"] {
     h1 {
         margin-bottom: 3rem;
     }
-    .labels, .label {
+    .labels {
         flex-direction: row;
         justify-content: space-between;
     }
