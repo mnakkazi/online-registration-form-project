@@ -92,10 +92,11 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     border-radius: 5px;
     background-color: rgba(230, 235, 240, 0.7);
     font-size: 1.1em;
+    transition-duration: 2s;
 }
 input:focus, select:focus, textarea:focus {
     outline: 2px solid rgb(132, 13, 78);  
-    transition: all 2s ease-in;
+    background-color: rgb(244, 233, 216);
 }
 input[type="checkbox"], input[type="radio"] {
     margin: .8rem;
