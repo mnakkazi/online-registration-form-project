@@ -83,20 +83,17 @@ footer p {
     display: flex;
     flex-direction: column;
 }
-.newsletter {
-    background-color: rgba(249, 225, 229, .4);
-}
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     padding: 1.2rem 1.2rem 1.2rem .5rem;
     width: 100%;
     border-radius: 5px;
     background-color: rgba(230, 235, 240, 0.7);
     font-size: 1.1em;
-    transition-duration: 2s;
+    transition: background-color .5s ease-in-out .5s, outline .6s ease-in-out;
 }
 input:focus, select:focus, textarea:focus {
-    outline: 2px solid rgb(132, 13, 78);  
-    background-color: rgb(244, 233, 216);
+    outline: 2px solid rgb(199, 88, 149);  
+    background-color: rgb(246, 240, 237);
 }
 input[type="checkbox"], input[type="radio"] {
     margin: .8rem;
